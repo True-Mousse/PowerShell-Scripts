@@ -7,9 +7,9 @@ $Users = Import-csv C:\Users\Administrators\Desktop\New_Users.csv
 
 foreach($User in $Users)
 {
-    $NewUser     = "$($User.SamAccountName)"
-    $GivenName   = "$($User.GivenName)"
-    $Surname     ="$($User.Surname)"
+    $NewUserÂ  Â  Â = "$($User.SamAccountName)"
+    $GivenNameÂ  Â = "$($User.GivenName)"
+    $SurnameÂ  Â  Â = "$($User.Surname)"
 
     New-ADUser -Name $NewUser -GivenName $GivenName -Surname $Surname
 
