@@ -1,7 +1,6 @@
-# Adds Users to AD from CSV file
+# Adds Users to AD from CSV file. 
 
 Import-Module activedirectory
-
 
 $Users = Import-csv C:\Users\Administrators\Desktop\New_Users.csv
 
