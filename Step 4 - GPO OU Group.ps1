@@ -1,5 +1,5 @@
 ## Adds Users to AD from CSV file. 
-$CSV_File = C:\Users\Administrators\Desktop\New_Users.csv # Location of CSV File
+$CSV_File = "C:\Users\Administrators\Desktop\New_Users.csv" # Location of CSV File
 $Users = Import-csv $CSV_File # Imports data from CSV 
 
 foreach($User in $Users) # Iterates through rows imported from CSV
